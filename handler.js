@@ -13,7 +13,7 @@ module.exports.processEvent = async (event) => {
   console.log(event)
   const { body } = event
 
-  if (body && (JSON.parse(body)?.message?.text !== '/schedule@discipleBot_bot' || JSON.parse(body)?.message?.text !== '/schedule')) return 'Not processing request as command is not valid'
+  if (body && (JSON.parse(body)?.message?.text !== '/schedule' || JSON.parse(body)?.message?.text !== '/schedule')) return 'Not processing request as command is not valid'
 
   console.log('Fetching data from Google Sheet..')
   const results = await fetchDataFromGoogleSheet()
