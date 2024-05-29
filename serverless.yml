@@ -12,18 +12,9 @@ functions:
     handler: handler.processEvent
     url: true
     environment:
-      BOT_API_KEY: 5339741185:AAGWg68mXAN49aMvl3jgkvZNOUn72O60-j0
-      GROUP_CHAT_ID: -1001180499200
-      GOOGLE_SHEET_ID: 1ltpk4kzf38mNWsTWGzxRQ6d8uW2D-hZGQKwNksK2wYg
+      BOT_API_KEY: "Enter bot api key"
+      GROUP_CHAT_ID: "Enter group chat id"
+      GOOGLE_SHEET_ID: "Enter GSheet Id"
       GID: 519871512
     events:
       - schedule: cron(0 16 ? * THU *)
-
-# Yoh
-# 983396528
-
-# 2p1 SheetID
-# 1ltpk4kzf38mNWsTWGzxRQ6d8uW2D-hZGQKwNksK2wYg
-
-# 2p1
-# -1001180499200
