@@ -1,0 +1,16 @@
+{
+  "name": "telegram-reminder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "deploy": "sls deploy -s production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.27.2",
+    "csv-parser": "3.0.0",
+    "serverless": "3.17.0"
+  }
+}
